@@ -67,14 +67,15 @@ r = Rouge155()
 r.system_dir = "/Users/rajeshjain/projects/GreatLearnings/assignments/residency/gurgaonbatch-rajeshcjain/CapstonProject/pretrained_model/decode_val_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/decoded/"
 r.model_dir = "/Users/rajeshjain/projects/GreatLearnings/assignments/residency/gurgaonbatch-rajeshcjain/CapstonProject/pretrained_model/decode_val_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/reference/"
 
-# define the patterns
+#define the patterns
 r.system_filename_pattern = "(\d+)_decoded.txt"
 r.model_filename_pattern = "#ID#_reference.txt"
 
-# use default parameters to run the evaluation
+#use default parameters to run the evaluation
 output = r.convert_and_evaluate()
 print(output)
 output_dict = r.output_to_dict(output)
+
 
 -------------------------------
 
@@ -86,3 +87,10 @@ Please remember we need to copy the rouge-1.5.5 and keep it in pyrouge folder.
 If you don’t have then download the pyrouge from https://github.com/andersjo/pyrouge and copy ROUGE-1.5.5 from tools folder and past it in the above pyrouge don’t use this downloaded pyrouge..I faced lot of problem with it.
 
 I could not spare time for docker file..I will start working on it as soon as I get time.
+
+
+
+##How to create the data set
+
+Please change the script file "make_datafiles.py" in cnn-dailymail and then run it with python3.
+It will create the story and bin files.As we had lot of data and becuase of lack of resources we have modified the script to get the bin files only for the cnn.
