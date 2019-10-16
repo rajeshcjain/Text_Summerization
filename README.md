@@ -94,3 +94,11 @@ I could not spare time for docker file..I will start working on it as soon as I 
 
 Please change the script file "make_datafiles.py" in cnn-dailymail and then run it with python3.
 It will create the story and bin files.As we had lot of data and becuase of lack of resources we have modified the script to get the bin files only for the cnn.
+
+##Please remember when we are running it on google cloud.
+- Please use deep learning vm
+- We need to change the configuration of the google cloud such that it shall be operated from your local machine through ssh.
+- Increase the connection time with the server otherwise when you will run the model from the server..it will kill the connection and it will stop on the server.
+- install screen software on you local machine and then use it.the you can run it forever on google cloud machine.
+
+
