@@ -98,7 +98,8 @@ It will create the story and bin files.As we had lot of data and becuase of lack
 ##Please remember when we are running it on google cloud.
 - Please use deep learning vm
 - We need to change the configuration of the google cloud such that it shall be operated from your local machine through ssh.
-- Increase the connection time with the server otherwise when you will run the model from the server..it will kill the connection and it will stop on the server.
+- Increase the connection time with the server otherwise when you will run the model from the server..it will kill the connection and it will stop on the server.we need to have ssh timeout time so that local computer can keep establish the connection with the server.The path on the mac is vi /etc/ssh/ssh_config refer below link
+
 - install screen software on you local machine and then use it.the you can run it forever on google cloud machine.
 
 
