@@ -17,10 +17,10 @@ Screen Shot 2019-07-26 at 1.44.42 PM.png
 https://github.com/becxer/pointer-generator/
 
 There are modification which I did on it.So attaching the zip folder for that so that you guys can use it straight away.	
-3). You need to download the retrained model from 
+3). You need to download the pretrained model from 
 https://drive.google.com/file/d/0B7pQmm-OfDv7ZUhHZm9ZWEZidDg/view
 
-Please remember there are 2 retrained models which are available …The above link has model which is based on tensor-flow 1.2.1..there are few deprecated api’s but it will work.
+Please remember there are 2 pretrained models which are available …The above link has model which is based on tensor-flow 1.2.1..there are few deprecated api’s but it will work.
 
 4). Download the finished_files from the below link 
 https://drive.google.com/file/d/0BzQ6rtO2VN95a0c3TlZCWkl3aU0/view?usp=sharing
